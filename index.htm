@@ -1,0 +1,354 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Сайт-визитка Александр Шидловский</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!-- MK Lightbox -->
+    <link href="css/mklb.css" rel="stylesheet" type="text/css">
+    <!-- Icons -->
+    <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css">
+    <!-- Slider -->
+    <link href="css/tiny-slider.css" rel="stylesheet">
+    <!-- Main css File -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" id="theme-opt">
+    <link href="css/colors/default.css" rel="stylesheet" id="color-opt">
+  </head>
+  <body data-bs-spy="scroll" data-bs-offset="20" data-bs-target="#navbar-navlist">
+    <!-- Loader -->
+    <div id="preloader">
+      <div id="status">
+        <div class="spinner">
+          <div class="double-bounce1"></div>
+          <div class="double-bounce2"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Loader -->
+    <!-- Navbar Start -->
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-custom navbar-light sticky">
+      <div class="container">
+        <!-- Logo container-->
+        <a class="logo navbar-brand" href="#">Александр Шидловский</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="mdi mdi-menu"></i>
+        </button>
+        <!--end button-->
+        <div class="collapse navbar-collapse navigation" id="navbarCollapse">
+          <ul id="navbar-navlist" class="navbar-nav navbar-nav-link ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Главная</a>
+            </li>
+            <!--end nav item-->
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Навыки и стек</a>
+            </li>
+            <!--end nav item-->
+            <li class="nav-item">
+              <a class="nav-link" href="images/MyCV.pdf">Резюме</a>
+            </li>
+            <!--end nav item-->
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Контакты</a>
+            </li>
+            <!--end nav item-->
+          </ul>
+        </div>
+      </div>
+      <!--end container-->
+    </nav>
+    <!--end navbar-->
+    <!-- Navbar End -->
+    <!-- Hero Area -->
+    <div class="hero-area position-relative bg-half-120" style="background-image:url('images/background.jpg')" data-jarallax='{"speed": 0.5}' id="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12 col-md-12 align-items-center text-center">
+            <div class="title-heading mt-4 pb-1">
+              <img src="images/me.jpg" class="img-fluid rounded-circle" alt="">
+              <h1 class="heading font-36 text-white mt-4">Привет, меня зовут Саша</h1>
+              </h6>
+              <div class="hero-btn mt-4 pt-2">
+                <a href="images/MyCV.pdf" class="btn btn-primary rounded text-white mb-2">Скачать мое резюме <i data-feather="download" class="fea icon-sm"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="card public-profile border-0 rounded shadow no-margin" style="z-index: 1;">
+              <div class="card-body">
+                <div class="row align-items-center">
+                  <div class="col-lg-3 col-md-4 text-md-start">
+                    <!--<img src="images/client/05.jpg" class="avatar avatar-large rounded-circle shadow d-block mx-auto" alt="">-->
+                    <div class="about-details key-feature bg-light">
+                      <div class="media-body content">
+                        <h6 class="title mb-2">Контакты</h6>
+                        <div class="bor-bottom mt-2 mb-2"></div>
+                        <p class="text-muted mb-2 mt-3 font-14">E-mail: al.shidlovsky@yandex.ru</p>
+                        <p class="text-muted mb-2 font-14">Telegram: @szdlwsk</p>
+                        <p class="text-muted mb-0 font-14">Телефон: +7(912)654-28-45</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-9 col-md-8">
+                    <div class="row align-items-end">
+                      <div class="col-md-12 text-md-start mt-4 mt-sm-0">
+                        <h4 class="heading me-2">Я — начинающий <span id="typed" class="text-primary"></span>
+                        </h4>
+                        <p class="text-light-muted mt-2">Я отлично ориентируюсь в теории тестирования, уверенно использую основные инструменты тестировщика, имею учебный опыт тестирования реального продукта.</p>
+                      </div>
+                    </div>
+                    <!--end col-->
+                  </div>
+                  <!--end row-->
+                </div>
+                <!--end col-->
+              </div>
+              <!--end row-->
+            </div>
+          </div>
+        </div>
+        <!--end col-->
+      </div>
+      <!--end row-->
+      </div>
+      <!--end container-->
+    </section>
+    <!--end section -->
+    <!-- Service Start -->
+    <section class="section bg-light" id="services">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center">
+            <div class="container-title text-center mb-4 pb-2">
+              <div class="titles">
+                <h2 class="title mb-4">Навыки и стек</h2>
+                <p class="pera-title para-desc-600 text-light-muted mb-0 mx-auto">На данный момент я владею следующим стеком инструментов и технологий:</p>
+                <span></span>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+            <div class="feature-widget text-left rounded">
+              <div class="services-icon text-primary mb-3">
+                <i data-feather="disc" class="fea icon-md"></i>
+              </div>
+              <div class="services-texts">
+                <h3 class="title mb-3">Miro, Checkvist</h3>
+                <p class="text-light-muted mb-4">Проектирование тестов, написание чек-листов</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+            <div class="feature-widget text-left rounded">
+              <div class="icon services-icon text-primary mb-3">
+                <i data-feather="target" class="fea icon-md"></i>
+              </div>
+              <div class="services-texts">
+                <h3 class="title mb-3">Qase</h3>
+                <p class="text-light-muted mb-4">Написание тест-кейсов. Создание тест-сьютов</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+            <div class="feature-widget text-left rounded">
+              <div class="services-icon text-primary mb-3">
+                <i data-feather="monitor" class="fea icon-md"></i>
+              </div>
+              <div class="services-texts">
+                <h3 class="title mb-3">Developer Tools</h3>
+                <p class="text-light-muted mb-4">Отслеживание ошибок. Тестирование UI. Просмотр запросов/ответов</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+            <div class="feature-widget text-left rounded">
+              <div class="services-icon text-primary mb-3">
+                <i data-feather="feather" class="fea icon-md"></i>
+              </div>
+              <div class="services-texts">
+                <h3 class="title mb-3">Postman</h3>
+                <p class="text-light-muted mb-4">Cоздание коллекций запросов. Написание автотестов</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+            <div class="feature-widget text-left rounded">
+              <div class="services-icon text-primary mb-3">
+                <i data-feather="layout" class="fea icon-md"></i>
+              </div>
+              <div class="services-texts">
+                <h3 class="title mb-3">SQL</h3>
+                <p class="text-light-muted mb-4">Написание SQL-запросов. Просмотр данных в БД</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+            <div class="feature-widget text-left rounded">
+              <div class="services-icon text-primary mb-3">
+                <i data-feather="watch" class="fea icon-md"></i>
+              </div>
+              <div class="services-texts">
+                <h3 class="title mb-3">REST API</h3>
+                <p class="text-light-muted mb-4">Разбор документации к API. Тестирование API</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+            <div class="feature-widget text-left rounded">
+              <div class="icon services-icon text-primary mb-3">
+                <i data-feather="target" class="fea icon-md"></i>
+              </div>
+              <div class="services-texts">
+                <h3 class="title mb-3">YouTrack, Yandex Tracker</h3>
+                <p class="text-light-muted mb-4">Написание баг-репортов. Отслеживание багов на всех этапах</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+            <div class="feature-widget text-left rounded">
+              <div class="icon services-icon text-primary mb-3">
+                <i data-feather="target" class="fea icon-md"></i>
+              </div>
+              <div class="services-texts">
+                <h3 class="title mb-3">Charles</h3>
+                <p class="text-light-muted mb-4">Редактирование запросов. Подмена ответов</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+            <div class="feature-widget text-left rounded">
+              <div class="icon services-icon text-primary mb-3">
+                <i data-feather="target" class="fea icon-md"></i>
+              </div>
+              <div class="services-texts">
+                <h3 class="title mb-3">Git</h3>
+                <p class="text-light-muted mb-4">Работа с репозиториями на GitHub и их ветками</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+            <div class="feature-widget text-left rounded">
+              <div class="icon services-icon text-primary mb-3">
+                <i data-feather="target" class="fea icon-md"></i>
+              </div>
+              <div class="services-texts">
+                <h3 class="title mb-3">Sentry, Kibana</h3>
+                <p class="text-light-muted mb-4">Просмотр логов</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end row -->
+      </div>
+    </section>
+    <!-- End Start -->
+    <!-- Contact Start -->
+    <section class="section pb-0" id="contact">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center">
+            <div class="container-title text-center mb-4 pb-2">
+              <div class="titles">
+                <h2 class="title text-capitalize mb-4">Мои контакты</h2>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+        <div class="row">
+          <div class="col-md-4 mt-4 pt-2">
+            <div class="contact-detail text-center">
+              <div class="icon">
+                <i data-feather="phone" class="fea icon-md"></i>
+              </div>
+              <div class="content mt-4">
+                <h5 class="title">Telegram</h5>
+                <a href="https://t.me/szdlwsk" class="text-primary">@szdlwsk</a>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+          <div class="col-md-4 mt-4 pt-2">
+            <div class="contact-detail text-center">
+              <div class="icon">
+                <i data-feather="mail" class="fea icon-md"></i>
+              </div>
+              <div class="content mt-4">
+                <h5 class="title">E-mail</h5>
+                <a href="mailto:al.shidlovsky@yandex.ru<" class="text-primary">al.shidlovsky@yandex.ru </a>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+          <div class="col-md-4 mt-4 pt-2">
+            <div class="contact-detail text-center">
+              <div class="icon">
+                <i data-feather="map-pin" class="fea icon-md"></i>
+              </div>
+              <div class="content mt-4">
+                <h5 class="title">Локация</h5>
+                <p class="text-light-muted">Россия, Санкт-Петербург</p>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+      </div>
+      <!--end container-->
+    </section>
+    <!--end section-->
+    <footer class="footer footer-bar bg-black">
+      <div class="container text-foot text-center">
+        <p class="mb-0 text-white-50">© Александр Шидловский, <script>
+            document.write(new Date().getFullYear())
+          </script>
+      </div>
+      <!--end container-->
+    </footer>
+    <!--end footer-->
+    <!-- Footer End -->
+    <a href="javascript: void(0);" class="back-to-top btn btn-icon btn-soft-primary" id="back-to-top" onclick="topFunction()">
+      <i data-feather="arrow-up" class="icons"></i>
+    </a>
+    <!-- Back to top -->
+    <!-- Javascript -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Slider -->
+    <script src="js/tiny-slider.js"></script>
+    <script src="js/tiny-slider-init.js"></script>
+    <!-- MK Lightbox -->
+    <script src="js/mklb.js"></script>
+    <!-- Contact -->
+    <script src="js/contact.js"></script>
+    <!-- Counter init -->
+    <script src="js/counter.init.js"></script>
+    <!-- Feather icon -->
+    <script src="js/feather.min.js"></script>
+    <!-- Parallax -->
+    <script src="js/parallax.js"></script>
+    <!-- Typed -->
+    <script src="js/typed.js"></script>
+    <script src="js/typed.init.js"></script>
+    <!-- Switcher -->
+    <script src="js/switcher.js"></script>
+    <!-- Main Js -->
+    <script src="js/app.js"></script>
+  </body>
+</html>

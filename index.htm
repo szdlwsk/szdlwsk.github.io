@@ -353,5 +353,44 @@
     <script src="js/switcher.js"></script>
     <!-- Main Js -->
     <script src="js/app.js"></script>
+	  <!-- webim button generation date: 2026-06-18 version: 10.8.64 -->
+<a class="webim_button" href="#" rel="webim">
+    <img src="https://wmtestcustom18.webimtest.dev/button" border="0"/>
+</a>
+<script type="text/javascript">
+    webim = {
+        accountName: "wmtestcustom18",
+        domain: "wmtestcustom18.webimtest.dev",
+        location: "default",
+        fallbackDomains: ['wmtestcustom18.zxzxzxxzxzxzxz.dev', 'wmtestcustom18.qweqweqweqweqw.dev', 'wmtestcustom18.webimtest.dev'],
+    };
+
+    (function () {
+        const domains = [webim.domain, ...webim.fallbackDomains];
+        let currentDomain;
+        let buttonCode;
+        domains.reduce(function(prevFetchPromise, domain) {
+            return prevFetchPromise
+                .then(function() {
+                    if (!buttonCode) {
+                        return fetch("https://" + domain + "/js/button.js")
+                            .then(function(result) {return result.text()})
+                            .then(function(code) {
+                                buttonCode = code;
+                                currentDomain = domain;
+                            });
+                    }
+                })
+                .catch(function() {});
+        }, Promise.resolve()).then(function() {
+            webim.domain = currentDomain;
+            const s = document.createElement("script");
+            s.innerHTML = buttonCode;
+            s.type = "text/javascript";
+            document.getElementsByTagName("head")[0].appendChild(s);
+        });
+    })();
+</script>
+<!-- /webim button -->
   </body>
 </html>
